@@ -54,7 +54,8 @@ The app will run locally on **http://localhost:3000**.
 
 
 ## 📽️ Video Walkthrough
-A video demonstrating the application can be found [here](https://yourvideolink.com).
+A video demonstrating the application can be found ![Screenshot 2025-02-01 164541](https://github.com/user-attachments/assets/2a1c570e-bc41-4e99-81e3-211d17439fcc)
+
 
 ## 🔍 Evaluation Criteria
 This project meets the following evaluation points:
