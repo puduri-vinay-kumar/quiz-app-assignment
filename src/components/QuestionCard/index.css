@@ -1,0 +1,99 @@
+.question-container {
+    padding: 20px;
+    
+    border-radius: 10px;
+    
+  }
+  fieldset, form {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+.options-container label {
+    display: block;
+    background: #f1f5ff;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    display: flex;
+    align-items: center; 
+    
+  }
+  .options-container label:focus {
+    outline: none;
+  }
+.radio-icon {
+    outline: none;
+}
+.options-container label:hover {
+    background: #d6e0ff;
+    transform: translateX(5px);
+  }
+  
+  
+  
+  
+  
+  .option-label {
+    display: block;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    background-color: white;
+    color: black;
+  }
+  
+  .option-label:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected-incorrect {
+    background-color: red !important;
+    color: white !important;
+    border-color: darkred;
+  }
+  
+  .highlight-correct {
+    background-color: green !important;
+   
+    color: white !important;
+    border-color: darkgreen;
+  }
+  .correct {
+    color: green !important;
+  }
+  
+  
+  .option-label:not(.selected-incorrect):not(.highlight-correct) {
+    opacity: 1;
+  }
+  
+  .radio-icon {
+    margin-right: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .options-container label {
+        font-size: 14px;
+        padding: 10px;
+        display:flex;
+        flex-direction:row;
+        align-self: flex-start;
+        border-color: #ffffff;
+        border-width: 0px;
+      }
+  }
+
+  @media screen and (min-width:480px) {
+    .options-container label {
+        font-size: 12px;
+        padding: 8px;
+      }
+  }
+
